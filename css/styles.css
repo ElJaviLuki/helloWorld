@@ -1,0 +1,48 @@
+/*Fonts*/
+@font-face {
+  font-family: belta-light;
+  src: url(ttf/belta.light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: belta-regular;
+  src: url(ttf/belta.regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: belta-bold;
+  src: url(ttf/belta.bold.ttf) format("truetype");
+}
+
+/*
+header{
+	
+	
+}
+
+.intro {
+	
+	
+}
+
+
+.titulo{
+	font-family: belta-bold;
+	font-size: 25px;
+}*/
+
+header {
+  display: flex; /*La disposición de los elementos es flexible  en  el header*/
+  align-items: center; /*Hace que el tamaño de los elementos del contenedor se independiente entre sí, aunque tengan un display flexible.*/
+}
+
+.foto-titulo {
+	margin-left: 10px;
+  	border-radius: 20px;
+}
+
+.titulo {
+  font-family: belta-bold;
+  font-size: 50px;
+  margin-left: 15px;
+}
